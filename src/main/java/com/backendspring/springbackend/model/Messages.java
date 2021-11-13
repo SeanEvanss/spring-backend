@@ -54,4 +54,9 @@ public class Messages {
         this.message = message;
     }
 
+    @Override
+    public String toString() {
+        return "Messages [name=" + name + ", email=" + email + ", message=" + message + "]";
+    }
+
 }
