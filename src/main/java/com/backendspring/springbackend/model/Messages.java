@@ -9,11 +9,8 @@ public class Messages {
     private String email;
     private String message;
 
-    public Messages(String name, String email, String message) {       
-        this.name = name;
-        this.email = email;
-        this.message = message;
-    }
+    public Messages() {       
+}
 
     /**
      * @return String return the name

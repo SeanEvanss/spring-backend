@@ -1,5 +1,7 @@
 package com.backendspring.springbackend.service;
 import java.util.List;
+import java.util.Optional;
+
 import com.backendspring.springbackend.model.Messages;
 
 public interface MessagesService{
@@ -10,5 +12,7 @@ public interface MessagesService{
     Messages findByEmail(String email);    
     
     List<Messages> findAll();
+
+    
 
 }
